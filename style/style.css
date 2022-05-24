@@ -1,7 +1,12 @@
 .footer{
-    background-color:#f8f8f8;
+    background-color:#eeeeee;
 }
 
+
+.places{
+    background-color:#f8f8f8;
+    
+}
 body{
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -24,6 +29,10 @@ body{
     flex-direction: row-reverse;
 }
 
+
+.ratings{
+    height:70vh
+}
 .underline-pink {
     border-bottom: 3px solid #FF007A;
 }
@@ -56,10 +65,6 @@ body{
     max-width: 40px;
 }
 
-.locaisproximos{
-    height: 100vh;
-
-    }
 
 .locais-title{
     width:fit-content
@@ -67,7 +72,7 @@ body{
 
 .divisor{
     height: 0.5rem;
-    width:50%;
+    width:10rem;
 }
 
 .pinkClr{
@@ -82,6 +87,13 @@ body{
     background-color: #A100FF;
     color:white;
     font-weight: 800;
+}
+
+.line-items{
+    padding:2rem 0 2rem 0 ;
+    -webkit-overflow-scrolling: touch;
+
+
 }
 
 .yellowClr{
@@ -107,8 +119,11 @@ body{
 	background-size: cover;
 	transition: all 0.2s ease-in-out !important;
 	border-radius: 24px;
-
+    margin-left: 1.5rem;
+    flex-shrink: 0;
 }
+
+
 
 
 .card-title{
@@ -119,9 +134,7 @@ body{
 }
 
 
-.scrolling-wrapper{
-	overflow-x: auto;
-}
+
 
 @media only screen and (max-width: 980px) {
     .line-bottom {
