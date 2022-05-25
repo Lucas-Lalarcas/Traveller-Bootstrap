@@ -44,12 +44,16 @@ body{
     border-bottom: 3px solid #00FF9D;
 }
 
+.breadcrumb {
+    background-color: white;
+}
+
 .login {
     font-weight: 700;
 }
 
-.img-fluid{
-    max-width: 150px;
+.gallery {
+    
 }
 
 .img-small{
